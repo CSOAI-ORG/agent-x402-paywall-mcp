@@ -1,60 +1,78 @@
-# Agent x402 Paywall MCP
+# Agent X402 Paywall MCP
 
-> ## 🧱 Part of the MEOK A2A Substrate (£499/mo)
-> See [meok.ai/a2a](https://meok.ai/a2a).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/agent_x402_paywall_mcp/)
 
-# HTTP 402 + on-chain settlement — pay-per-call for agents
+>  HTTP 402 + on-chain settlement — pay-per-call for agents
 
-<!-- mcp-name: io.github.CSOAI-ORG/agent-x402-paywall-mcp -->
+ HTTP 402 + on-chain settlement — pay-per-call for agents
 
-[![PyPI](https://img.shields.io/pypi/v/agent-x402-paywall-mcp)](https://pypi.org/project/agent-x402-paywall-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## The product
+## 🚀 Quick Start
 
-Wraps the **Coinbase x402** protocol (HTTP 402 Payment Required) so AI agents can pay per-API-call without a Stripe customer relationship. Pure HTTP. Zero SDK. Settles on-chain via USDC (Base / Polygon / Solana) or Lightning Network.
+```bash
+# Install via pip
+pip install agent_x402_paywall_mcp
 
-Combine with `agent-commerce-protocol-mcp` (Stripe ACP) and `agent-commerce-payments-mcp` (AP2 / PSD2 / MiCA) for full coverage of all 3 live agent-payment protocols.
+# Or install via Smithery
+npx -y @smithery/cli@latest install agent-x402-paywall-mcp --client claude
+```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|---|---|
-| `list_supported_chains()` | Base · Polygon · Solana · Lightning · Ethereum mainnet |
-| `build_402_challenge(url, amount, currency, chain, expires?)` | Build HTTP 402 response |
-| `verify_payment(challenge_id, tx_hash, chain)` | Verify on-chain settlement |
-| `estimate_settlement_cost(chain, amount)` | Gas/fee preview |
-| `get_payment(payment_id)` | Look up a verified payment |
-| `list_recent_payments(limit)` | Monitor recent settlements |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Why this unlocks revenue
+## 📖 Documentation
 
-The agent economy needs frictionless micropayments. Stripe Connect requires KYC, US-bank linkage, and customer accounts — fine for SaaS, fatal for agent-to-API calls. x402 is the inverse: agent hits URL → 402 → settles on-chain → retries → gets the answer. No accounts, no PII.
+- [Full Documentation](https://docs.meok.ai/agent-x402-paywall-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-For MEOK specifically: this MCP wraps `api.meok.ai` itself so external agents can pay £0.0002/call to access our 52 MCPs **without** signing up for Stripe Universal PAYG. Stripe customers stay on Stripe; on-chain customers settle on-chain; same gateway behind both.
+## 🛡️ Compliance
 
-## Sister MCPs
+This MCP server is built with **EU AI Act compliance** built-in:
 
-- `agent-commerce-protocol-mcp` — Stripe ACP bridge
-- `agent-commerce-payments-mcp` — PSD2/MiCA/AP2
-- `agent-rate-limiter-mcp` — call-count throttling
-- `agent-token-budget-mcp` — spend cap
-- `agent-audit-logger-mcp` — hash-chained payment log
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-## Protocol coverage + Universal PAYG
+## 🏢 Enterprise
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| A2A Substrate | £499/mo |
-| Universe (all 52) | £1,499/mo |
-| Defence | £4,990/mo |
+Need custom development, SLA guarantees, or white-label deployment?
 
-Buy: https://meok.ai/a2a
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-## Licence
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+## 🤝 Part of the MEOK Ecosystem
+
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
