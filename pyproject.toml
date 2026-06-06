@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agent-x402-paywall-mcp"
-version = "1.0.0"
+version = "1.0.3"
 description = "Agent x402 Paywall MCP — wraps Coinbase x402 (HTTP 402) so agents pay per-call without Stripe accounts. On-chain settlement via USDC (Base/Polygon/Solana) or Lightning. The plumbing for the agent economy. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }

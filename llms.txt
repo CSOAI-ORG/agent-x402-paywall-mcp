@@ -1,33 +1,22 @@
-# Agent X402 Paywall MCP
+# agent-x402-paywall-mcp
 
-> HTTP 402 + on-chain settlement — pay-per-call for agents
+> Agent x402 Paywall MCP — wraps Coinbase x402 (HTTP 402) so agents pay per-call without Stripe accounts. On-chain settlement via USDC (Base/Polygon/Solana) or Lightning. The plumbing for the agent economy. By MEOK AI Labs.
 
-`agent-x402-paywall-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- list_supported_chains
+- build_402_challenge
+- verify_payment
+- estimate_settlement_cost
+- get_payment
+- list_recent_payments
 
 ## Install
-
-```bash
+```
 pip install agent-x402-paywall-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx agent-x402-paywall-mcp
-```
-
-## Tools
-
-- `list_supported_chains` — List on-chain settlement options + min-confirmation windows.
-- `build_402_challenge`
-- `verify_payment`
-- `estimate_settlement_cost`
-- `get_payment` — Retrieve a verified payment record.
-- `list_recent_payments` — List recent verified payments for monitoring.
-
 ## Links
-
-- Source: https://github.com/CSOAI-ORG/agent-x402-paywall-mcp
 - PyPI: https://pypi.org/project/agent-x402-paywall-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+- Docs: https://meok.ai
