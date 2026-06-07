@@ -1,3 +1,5 @@
+[![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/agent-x402-paywall-mcp.html)
+
 # Agent X402 Paywall MCP
 mcp-name: io.github.CSOAI-ORG/agent-x402-paywall-mcp
 
