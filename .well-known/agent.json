@@ -1,0 +1,77 @@
+{
+  "name": "agent-x402-paywall-mcp",
+  "description": "Agent x402 Paywall MCP \u2014 Coinbase HTTP 402 protocol + on-chain settlement. Agents pay per-call",
+  "url": "https://proofof.ai/scorecard/agent-x402-paywall-mcp.html",
+  "version": "1.0.3",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "list_supported_chains",
+      "name": "List Supported Chains",
+      "description": "list_supported_chains via agent-x402-paywall-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "build_402_challenge",
+      "name": "Build 402 Challenge",
+      "description": "build_402_challenge via agent-x402-paywall-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "verify_payment",
+      "name": "Verify Payment",
+      "description": "verify_payment via agent-x402-paywall-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "estimate_settlement_cost",
+      "name": "Estimate Settlement Cost",
+      "description": "estimate_settlement_cost via agent-x402-paywall-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_payment",
+      "name": "Get Payment",
+      "description": "get_payment via agent-x402-paywall-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_recent_payments",
+      "name": "List Recent Payments",
+      "description": "list_recent_payments via agent-x402-paywall-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

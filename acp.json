@@ -1,0 +1,24 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "agent-x402-paywall-mcp",
+    "description": "Agent x402 Paywall MCP \u2014 Coinbase HTTP 402 protocol + on-chain settlement. Agents pay per-call",
+    "version": "1.0.3",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "agent-x402-paywall-mcp"
+      }
+    ],
+    "capabilities": [
+      "list_supported_chains",
+      "build_402_challenge",
+      "verify_payment",
+      "estimate_settlement_cost",
+      "get_payment",
+      "list_recent_payments"
+    ]
+  }
+}
