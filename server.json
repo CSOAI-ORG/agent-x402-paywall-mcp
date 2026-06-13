@@ -2,10 +2,11 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/agent-x402-paywall-mcp",
   "version": "1.0.7",
-  "description": "Agent x402 Paywall MCP — Coinbase HTTP 402 protocol + on-chain settlement. Agents pay per-call",
+  "description": "Agent x402 Paywall MCP \u2014 Coinbase HTTP 402 protocol + on-chain settlement. Agents pay per-call",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/agent-x402-paywall-mcp",
-    "source": "github"
+    "source": "github",
+    "id": "1245564745"
   },
   "packages": [
     {
