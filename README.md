@@ -122,3 +122,8 @@ Once configured, ask your assistant, for example:
 - "Use `list_supported_chains` to …"
 - "Use `build_402_challenge` to …"
 - "Use `verify_payment` to …"
+
+## See also
+
+MEOK compliance MCP fleet:
+[`agent-commerce-protocol-mcp`](https://github.com/CSOAI-ORG/agent-commerce-protocol-mcp), [`agent-cost-allocator-mcp`](https://github.com/CSOAI-ORG/agent-cost-allocator-mcp), [`agent-identity-trust-mcp`](https://github.com/CSOAI-ORG/agent-identity-trust-mcp), [`agent-orchestrator-mcp`](https://github.com/CSOAI-ORG/agent-orchestrator-mcp), [`agent-replay-debugger-mcp`](https://github.com/CSOAI-ORG/agent-replay-debugger-mcp)

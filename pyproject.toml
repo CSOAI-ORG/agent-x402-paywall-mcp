@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agent-x402-paywall-mcp"
-version = "1.0.7"
+version = "1.0.9"
 description = "Agent x402 Paywall MCP — wraps Coinbase x402 (HTTP 402) so agents pay per-call without Stripe accounts. On-chain settlement via USDC (Base/Polygon/Solana) or Lightning. The plumbing for the agent economy. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
@@ -31,3 +31,22 @@ agent-x402-paywall-mcp = "server:main"
 
 [tool.setuptools]
 py-modules = ["server"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
