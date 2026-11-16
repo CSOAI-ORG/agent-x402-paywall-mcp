@@ -26,8 +26,7 @@ USE CASES
 
 PRICING
 -------
-Free MIT self-host · £29/mo Starter · £79/mo Pro (rate-card management) ·
-A2A Substrate £499/mo (https://meok.ai/a2a) · Universe £1,499/mo.
+No subscriptions and no tiers: pay per delivered job. See https://meok.ai/pricing. Source is MIT, free to self-host.
 """
 
 from __future__ import annotations
