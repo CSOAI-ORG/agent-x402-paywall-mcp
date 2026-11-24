@@ -18,11 +18,5 @@
         "type": "stdio"
       }
     }
-  ],
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://api.meok.ai/v1/a2a/agent-x402-paywall"
-    }
   ]
 }
